@@ -1,0 +1,46 @@
+In today's interconnected world, information security has become a
+paramount concern for individuals and organizations.
+
+The increasing complexity and sophistication of cyber threats necessitate
+the development of robust and effective intrusion detection systems
+(IDS) to safeguard sensitive data and networks.
+
+IDS plays a crucial role in identifying and mitigating security attacks by
+monitoring network traffic and identifying anomalous behaviors.
+
+Traditional IDS approaches often rely on rule-based or signature-based
+methods, which are limited in their ability to detect novel or previously
+unknown attacks.
+
+To address this limitation this project proposes an advanced intrusion
+detection system for predicting security attacks using hybrid LSTM-
+GRU classifiers.
+
+In recent years, recurrent neural networks (RNNs) such as hybrid Long
+Short-Term Memory (LSTM)-Gated Recurrent Units (GRUs) have
+emerged as powerful tools in the field of intrusion detection.
+
+This project proposes an intrusion detection system for predicting
+security attacks using hybrid LSTM-GRU classifiers.
+
+Initially input dataset is gathered for data preprocessing. Data
+preprocessing is the concept of changing the raw data into a clean data
+set.
+
+The dataset is preprocessed in order to check missing values, noisy data,
+and other inconsistencies before executing it to the data exploration.
+
+It refers to the initial step in data analysis in which data analysts use data
+visualization and statistical techniques to describe dataset
+characterizations.
+
+These dataset is further moved to feature selection. Main goal of feature
+selection is to select best features and reduce the computational cost of
+modeling.
+
+The selected features are classified by using hybrid LSTM-GRU
+classifiers. It solves the exploding and vanishing gradient problem.
+
+Finally in model evaluation accuracy, recall, f1score, precision are
+predicted by using this classifier. This project is implemented in python
+language.
